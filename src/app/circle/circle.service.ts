@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { CircleModel } from './Circle-Model';
+import { CircleModel } from './circle-response';
 import {environment} from "../../environments/environment";
 @Injectable({
   providedIn: 'root'
