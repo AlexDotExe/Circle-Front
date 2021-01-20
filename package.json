@@ -1,6 +1,9 @@
 {
   "name": "circle",
-  "version": "0.0.0",
+  "version": "0.5.0",
+  "engines":{
+    "node": "12.18.3"
+  },
   "scripts": {
     "ng": "ng",
     "start": "http-server-spa dist/angular-reddit-clone index.html $PORT",
